@@ -3,7 +3,7 @@
 {% block content %}
     <h1 class="title">{{ title }}</h1>
     <h3 class="info">{{ info }}</h3>
-    <form action="/questions/0">
+    <form action="/list" method="POST">
         <button>start survey</button>
     </form>
 {% endblock %}
